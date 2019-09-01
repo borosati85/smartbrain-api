@@ -2,9 +2,9 @@
   "name": "smartbrain-api",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -21,6 +21,5 @@
     "knex": "^0.19.2",
     "pg": "^7.12.1",
     "sqlite3": "^4.1.0",
-    "nodemon": "^1.19.1"
   }
 }
